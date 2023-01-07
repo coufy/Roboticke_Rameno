@@ -14,7 +14,8 @@ ___
 # <a name = tisk>Tisk 3D dílů</a>
 
 ## Postup:
-Vytiskněte si všechny 3D tištěné díly dopředu. Ve složce Files -> Parts v tomto repu máte .3MF soubory a v názvu každého z nich počet kusů pro jednu sestavu. Doporučený materiál PLA, vrstva 0,25 mm, dva perimetry, dvě spodní a tři horní plné vrstvy, výplň 10 procent. Vytiskněte si i tooly.
+Vytiskněte si všechny 3D tištěné díly dopředu. Ve složce Files -> Parts v tomto repu máte .3MF soubory a v názvu každého z nich počet kusů pro jednu sestavu. V Files -> Gcodes máte naslicovaný 1 kus pro MK3S z PLA, je tam verze s tooly i bez. Doporučený materiál PLA, vrstva 0,25 mm, dva perimetry, dvě spodní a tři horní plné vrstvy, výplň 10 procent. Vytiskněte si i tooly. Pro orientaci na podložce nahlédněte na obrázek.
+![alt](SupportFiles/Rameno.PNG)
 
 
 <!-- _________________________________________________________________ -->
@@ -31,6 +32,7 @@ Vytiskněte si všechny 3D tištěné díly dopředu. Ve složce Files -> Parts 
 Od každé používané délky dřívka si vyberte 2 kusy, musí být stejně dlouhé - porovnejte je mezi sebou. Používané délky uvidíte na vzorovém výrobku.
 
 Nasuňte vždy dvě stejná dřívka do toolu na doraz. Provrtejte obě dřívka podle toolů tak, aby odpovídala vzorovému výrobku. Díru v boku toolu 1 vrtejte 4mm vrtákem, všechny ostatní 3mm vrtákem.
+![alt](SupportFiles/4mm.png)
 
 Seřízněte okraje u 4mm díry tak, aby tvořila výřez ve tvaru U.
 
@@ -40,10 +42,11 @@ Seřízněte okraje u 4mm díry tak, aby tvořila výřez ve tvaru U.
 ## Potřebujeme:
 * tool Dreva1 - tool3
 * Japonská pilka, svěrák na řezání dřívek
-*lepidlo
+* lepidlo
 
 ## Postup:
-Uřízněte si pomocí toolu dvě krátká dřívka na rozepření vyvrtaných dřívek. Na [Onshape](https://cad.onshape.com/documents/ee4cb858b2cb7311c2be8039/w/914c7bf81c010f2368913c32/e/605063c54b75c535b45b02a1?renderMode=0&uiState=63b46f6445eb395359d39a16) jsou tato zaznačena oranžově, v modelové sestavě jsou nahrazena 3D tištěným dílem. Dřívka vsuňte na doraz do toolu a řezejte podél jeho hrany. To zajistí dobrou délku dřívek.
+Uřízněte si pomocí toolu dvě krátká dřívka na rozepření vyvrtaných dřívek. Na [Onshape](https://cad.onshape.com/documents/ee4cb858b2cb7311c2be8039/w/914c7bf81c010f2368913c32/e/605063c54b75c535b45b02a1?renderMode=0&uiState=63b46f6445eb395359d39a16) jsou tato zaznačena oranžově, v modelové sestavě jsou nahrazena 3D tištěným dílem. Dřívka vsuňte na doraz do toolu a řezejte podél jeho hrany. To zajistí dobrou délku dřívek. Výsledek musí vypadat jako na obrázku:
+![alt](SupportFiles/mala_drivka.PNG)
 
 Dřívka vlepte podle Onshape jako rozporu pro budoucí šroub. Můžete použít 3mm kolík pro navádění dřívek proti sobě, aby sestava nebyla slepená křivě.
 
@@ -64,10 +67,10 @@ Sešroubujte části sestavy. Pokud si nejste jistí, jakou délku šroubu použ
 
 ## Postup:
 Rozstřihněte USB kabel. Služí jako napájecí konektor s vyvedenými vývody, tedy 1 kabel pro dvě děti.
-Mechanicky připevněte endstopy.
+Mechanicky připevněte endstopy. Vyveďte si napájení pro kontroler na servo.
 
 Zapojte žlutý motr podle schématu. Endstopy připájejte jako NC (normally closed) a dávejte pozor, ať správný endstop vypne správný směr pohybu. To ověřte.
-![alt](SupportFiles/sch1.jpg)
+![alt](SupportFiles/IMG_4072.jpg)
 
 <!-- _________________________________________________________________ -->
 # <a name = servo>Ovládání serva</a>
